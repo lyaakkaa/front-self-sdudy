@@ -1,1 +1,1 @@
-# front-self-sdudy
+# front-self-study
