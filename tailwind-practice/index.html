@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+    <!-- <h1 class="text-3xl font-bold underline text-indigo-500">
+        Hello world!
+    </h1> -->
+    <!-- header -->
+    <header class="px-2 border-b flex items-center justify-between">
+        <!-- border-b-8 border-b-red-900 border-dashed -->
+        <a class="uppercase font-bold text-purple-800" href="#">webDev</a>
+        <nav class="flex items-center">
+            <ul class="inline-flex items-center">
+                <li><a class="header-link" href="#">Home </a></li>
+                <li><a class="header-link" href="#">About</a></li>
+                <li><a class="header-link" href="#">Contact</a></li>
+            </ul>
+
+            <ul class="inline-flex items-center">
+                <li><button class="header-btn">Login</button></li>
+                <li><button class="header-btn">Register</button></li>
+                <!-- shadow-md shadow-indigo-600 -->
+            </ul>
+
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- breadcrumbs -->
+        <div>
+            <div class="py-4 overflow-y-auto whitespace-nowrap flex items-center">
+                <a class="text-gray-600 hover:text-gray-900" href="#">Home</a>
+                <span class="mx-2 text-gray-500">&gt</span>
+                <a class="text-gray-600 hover:text-gray-900" href="#">News</a>
+                <span class="mx-2 text-gray-500">&gt</span>
+                <a class="text-gray-600 hover:text-gray-900" href="#">Tech</a>
+            </div>
+        </div>
+
+        <!-- post cards -->
+        <section class="px-2">
+            <a href="#" class="block mb-10">
+                <div class="flex">
+                    <div>
+                        <h3 class="mt-3 mb-2 text-gray-700 font-bold text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, assumenda?</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque possimus ab quaerat. Nihil eveniet aliquam eius itaque doloremque vero officia dolore rem officiis repudiandae deserunt velit saepe labore similique beatae sit a, tempore nostrum culpa, perspiciatis pariatur! Eius inventore nihil exercitationem? Enim, placeat repellendus, quo repudiandae asperiores, officia sit laudantium mollitia eaque at facilis temporibus! Sint cumque illum libero culpa velit? Aliquam iusto beatae facere laudantium nemo veniam tempora provident ab, asperiores quo enim alias est blanditiis vero veritatis unde possimus minima labore reiciendis illo. Error voluptatibus amet earum delectus corporis hic totam dolorum numquam, a enim, nostrum, minima sapiente.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="block mb-10">
+                <div class="flex">
+                    <div>
+                        <h3 class="mt-3 mb-2 text-gray-700 font-bold text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, assumenda?</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque possimus ab quaerat. Nihil eveniet aliquam eius itaque doloremque vero officia dolore rem officiis repudiandae deserunt velit saepe labore similique beatae sit a, tempore nostrum culpa, perspiciatis pariatur! Eius inventore nihil exercitationem? Enim, placeat repellendus, quo repudiandae asperiores, officia sit laudantium mollitia eaque at facilis temporibus! Sint cumque illum libero culpa velit? Aliquam iusto beatae facere laudantium nemo veniam tempora provident ab, asperiores quo enim alias est blanditiis vero veritatis unde possimus minima labore reiciendis illo. Error voluptatibus amet earum delectus corporis hic totam dolorum numquam, a enim, nostrum, minima sapiente.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="block mb-10">
+                <div class="flex">
+                    <div>
+                        <h3 class="mt-3 mb-2 text-gray-700 font-bold text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, qui. Error in laboriosam consectetur! Culpa deserunt nesciunt dolorem veritatis quas.</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat optio, soluta dignissimos in vitae deleniti debitis distinctio maiores veritatis quos cumque sapiente quia rerum. Sint ea fuga dolorum ullam qui voluptatem officiis odio veniam impedit esse corrupti ab, porro quaerat nisi cumque molestias aperiam, tempore deserunt. Consequatur at eveniet laboriosam, natus debitis eius a itaque, iste veritatis doloremque veniam temporibus sequi facere quam minus soluta ullam, cumque dolor nobis minima magni accusamus! Reprehenderit hic perspiciatis accusamus facere laborum soluta omnis aliquid pariatur molestias at eligendi magnam asperiores, quae tenetur itaque tempora nulla iste. Vitae vero est magnam nemo optio tempore odit rem suscipit, amet assumenda ea sequi perferendis corrupti eos?</p>
+                    </div>
+                </div>
+            </a>
+        </section>
+
+
+        <!-- pagination -->
+        <div class="mt-20 mb-10">
+            <ul class="flex justify-center">
+                <li><a class="pagination-item rounded-l-lg" href="#">Previous</a></li>
+                <li><a class="pagination-item" href="#">1</a></li>
+                <li><a class="pagination-item" href="#">2</a></li>
+                <li><a class="pagination-item text-blue-600 hover:bg-blue-100 hover:text-blue-600" href="#">3</a></li>
+                <li><a class="pagination-item" href="#">4</a></li>
+                <li><a class="pagination-item" href="#">5</a></li>
+                <li><a class="pagination-item rounded-r-lg" href="#">Next</a></li>
+            </ul>
+        </div>
+
+        <!-- divider -->
+        <div class="border border-dotted"></div>
+
+        <!-- subscribe -->
+        <div class="my-5">
+            <h5 class="font-bold text-lg uppercase text-gray-700 mb-2">Subscribe</h5>
+            <p class="text-gray-600 mb-4">Subscribe to our newsletter.</p>
+            <input placeholder="your email address" 
+            type="email"
+            class="text-gray-700 bg-gray-100 p-2 w-full border rounded-t hover:border-gray-600">
+            <button class="px-4 py-2 bg-indigo-600 text-white rounded-b w-full hover:bg-indigo-800 ">Subscribe</button>
+        </div>
+
+        <!-- divider -->
+        <div class="border border-dotted"></div>
+
+    </main>
+
+    <!-- footer -->
+    <!-- footer>div>div>h6+ul>li*2>a[href=#] -->
+    <footer class="border-t mt-10 py-10 px-2">
+        <div>
+            <div class="mb-5">
+                <h6 class="font-semibold text-gray-700 mb-4">Company</h6>
+                <ul>
+                    <li><a class="footer-link" href="#">Team</a></li>
+                    <li><a class="footer-link" href="#">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <div>
+        <h6 class="font-semibold text-gray-700 mb-4">Content</h6>
+        <ul>
+            <li><a class="footer-link" href="#">Policy</a></li>
+            <li><a class="footer-link" href="#">Block</a></li>
+            <li><a class="footer-link" href="#">Documentation</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
